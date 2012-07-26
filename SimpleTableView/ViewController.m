@@ -13,15 +13,17 @@
 @end
 
 @implementation ViewController
-{
+    {
     NSArray *tabledata;
-}
+    }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     tabledata = [ NSArray arrayWithObjects:@"douglas deodato", @"liduina deodato", @"arcisio barbosa", nil];
+    NSLog(@"array: %@", tabledata);
+
 }
 
 - (void)viewDidUnload
